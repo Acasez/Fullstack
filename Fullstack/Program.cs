@@ -2,10 +2,9 @@
 
 Console.WriteLine("FizBuzz 2, 3, 7");
 FizzBuzz(2, 3, 7);
-Console.WriteLine("FizBuzz 2, 4, 7");
-FizzBuzz(2, 4, 7);
-Console.WriteLine("FizBuzz 3, 5, 7");
-FizzBuzz(3, 5, 7);
+
+Abbreviate(3, "Hannes Real Company");
+
 void FizzBuzz(int x, int y, int n) {
     for (int i = 1; i <= n; i++) {
         bool fizz = false;
@@ -31,4 +30,21 @@ void FizzBuzz(int x, int y, int n) {
             Console.WriteLine(i);
         }
     }
+}
+
+void Abbreviate(int words, string name){
+    string abbreviation = "";
+    string[] split = name.Split(' ');
+    //Split string into words
+    //Get First letter of each word, check if capitalized
+    //Output Abbreviation
+    for (int i = 0; i < words; i++)
+    {
+        char firstLetter = split[i][0];
+        if (Char.IsUpper(firstLetter))
+        {
+            abbreviation += firstLetter;
+        }
+    }
+    Console.WriteLine(abbreviation);
 }

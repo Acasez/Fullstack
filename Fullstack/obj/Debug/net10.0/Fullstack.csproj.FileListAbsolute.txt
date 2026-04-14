@@ -12,3 +12,4 @@ C:\NewPrograms\Github\Fullstack\Fullstack\obj\Debug\net10.0\refint\Fullstack.dll
 C:\NewPrograms\Github\Fullstack\Fullstack\obj\Debug\net10.0\Fullstack.pdb
 C:\NewPrograms\Github\Fullstack\Fullstack\obj\Debug\net10.0\Fullstack.genruntimeconfig.cache
 C:\NewPrograms\Github\Fullstack\Fullstack\obj\Debug\net10.0\ref\Fullstack.dll
+C:\NewPrograms\Github\Fullstack\Fullstack\obj\Debug\net10.0\Fullstack.sourcelink.json
